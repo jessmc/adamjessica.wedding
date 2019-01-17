@@ -23,6 +23,12 @@ p {
   font-size: 18px;
   font-family: "Playfair Display", serif; }
 
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Cookie", cursive;
+  font-size: 26px; }
+
 .header {
   margin: 0 auto;
   max-width: 960px; }
@@ -70,6 +76,8 @@ p {
     font-size: 30px; }
   .details .fa-heart {
     margin: 40px; }
+  .details .directions {
+    margin-top: 100px; }
 
 .border {
   width: auto;
@@ -251,5 +259,23 @@ p {
     @media only screen and (max-width: 800px) {
       .thanks h5 {
         font-size: 18px; } }
+
+.directions-page {
+  text-align: center; }
+  .directions-page .title-nav {
+    margin-bottom: 50px; }
+  .directions-page .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; }
+    .directions-page .wrapper .go-back {
+      margin-top: 50px;
+      margin-bottom: 50px; }
+  .directions-page .directions {
+    max-width: 600px;
+    margin: 0 auto; }
+    .directions-page .directions h3 {
+      margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
